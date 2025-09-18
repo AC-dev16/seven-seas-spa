@@ -1,3 +1,25 @@
+/* Vertically center hero section content */
+.hero-section {
+	display: flex;
+	align-items: center;
+	min-height: 60vh;
+}
+/* Hero section button text color */
+.btn {
+	color: #3b2f2f;
+}
+/* Hero section text color and heading font */
+.hero-section {
+	color: #ffebd4;
+}
+.hero-section h1 {
+	font-family: 'Handlee', cursive;
+}
+/* Hero section background image responsiveness */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hero.png') center center/cover no-repeat;
+	min-height: 350px;
+}
 /* Make the current page nav item bold */
 .navbar .nav-link.active {
 	font-weight: bold;
