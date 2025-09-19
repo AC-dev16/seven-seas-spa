@@ -45,8 +45,18 @@ div.row.margin-top {
     object-fit: cover;
 }
 
+div.card {
+	min-height: 378px;
+}
+
 /* Hide any stray lines from SVG social icons in the footer */
 footer .text-end a svg {
     overflow: hidden;
     display: inline-block;
+}
+ /* media query for larger screens */
+@media (min-width: 1200px) {
+	div.card {
+	min-height: 402px;
+	}
 }
