@@ -1,3 +1,5 @@
+
+
 /* Vertically center hero section content */
 .hero-section {
 	display: flex;
@@ -33,8 +35,18 @@ h2 {
 	object-fit: cover;
 }
 
+div.row.margin-top {
+	margin-top: 5rem;
+}
+
 /* Set height of service card images */
 .card-img-top {
     height: 200px;
     object-fit: cover;
+}
+
+/* Hide any stray lines from SVG social icons in the footer */
+footer .text-end a svg {
+    overflow: hidden;
+    display: inline-block;
 }
