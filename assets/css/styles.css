@@ -47,6 +47,7 @@ div.row.margin-top {
 
 div.card {
 	min-height: 378px;
+	box-shadow: 0 4px 16px rgba(0,0,0,0.24);
 }
 
 /* Hide any stray lines from SVG social icons in the footer */
